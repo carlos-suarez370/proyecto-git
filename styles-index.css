@@ -1,0 +1,805 @@
+/* ----------------aclaraciones css---------- */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------fin aclaraciones css---------- */
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* ----------------PANTALLA MOVIL 350px---------- */
+
+/* ---------barra desplegable----------- */
+.navbar>.container-fluid {
+    background-color: rgb(59, 58, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+
+.bg-body-tertiary {
+    padding: 0%;
+
+}
+
+.navbar-toggler {
+    background-color: chocolate;
+    margin: 0.5em;
+    font-size: 0.75em;
+}
+
+/* ---------fin barra desplegable----------- */
+
+
+/* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+
+.encabezado_pricipal-empresa {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6em;
+    gap: 1em;
+    color: white;
+}
+
+/* --------- FIN  LOGO DE LA EMPRES__Y BUSCADOR------------- */
+
+
+.carousel-inner{
+    height: 13.5em;
+}
+
+/* --------- carrusel MARCAS---------- */
+
+.marcas_portada {
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.marca {
+
+    width: 4em;
+    height: 4.5em;
+
+    background-color: white;
+
+    padding: 0.5rem;
+}
+
+.tarjeta_portda_marcas {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------fin carrusel MARCAS---------- */
+
+/* -----------------CATEGORIAS DE PRODUCTOS---------- */
+
+.galeria_productos {
+    background-color: rgba(241, 242, 242, 0.984);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 0% 0% 2.3em 0%;
+
+}
+
+.texto_galeria_oroductos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 228, 228, 0.984);
+    margin: 0.em 0% 0% 0%;
+    padding: 0.5em;
+}
+
+/* -------------tarjetas__ img- productos---------- */
+.tarjeta {
+    width: 8em;
+    height: 6em;
+    background-color: white;
+
+}
+.tarjeta:hover{
+    background-color: rgba(129, 146, 146, 0.142)
+}
+
+.tarjeta_img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+/* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+
+
+/* ------------footer------------ */
+.caja {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.redes {
+    width: 100%;
+    height: 100%;
+}
+
+.redes_encabezado {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.horario_encabezado {
+    font-size: 0.rem;
+    text-align: center;
+    padding: 0% 0% 8px;
+}
+
+.primer_encabezado {
+    background-color: chocolate;
+    color: black;
+    width: 100%;
+    padding: 0.6em;
+
+}
+
+.titulo_footer {
+
+    width: 100%;
+    height: 40px;
+    background-color: chocolate;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.datos_contacto {
+    grid-row: span 2;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.iframe {
+    display: flex;
+    width: 100%;
+    min-height: min-content;
+}
+
+.texto_final {
+    background-color: black;
+    color: rgb(131, 125, 125);
+    padding: 5px;
+
+}
+
+/* ------------fin footer------------ */
+
+/* ---------------fin dispocitivo movil 350px----------- */
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ----------------PANTALLA INICIO 600px---------- */
+
+@media (min-width: 600px) {
+
+    .primer_encabezado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: chocolate;
+
+        padding: 1em;
+
+    }
+
+    .caja {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .redes {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* <!--fin PRIMER ENCABEZADO HORARIOS Y REDES SOCIALES --> */
+
+    /* ----------------ENCABEZADO PRONCIPAL-------------- */
+    .encabezado_pricipal-empresa {
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(15, 13, 17);
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+    /* ----------------ENCABEZADO PRONCIPAL-------------- */
+/* --------------------carrusel-------------- */
+.carousel-inner{
+    height: 18em;
+}
+/* --------------------carrusel-------------- */
+/* <!-- -----------------BARRA DE NAVEGACION------------ --> */
+
+    /* <!-- -----------------BARRA DE NAVEGACION------------ --> */
+    /* <!-- -------------footer---------- --> */
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* <!-- -------------fin footer---------- --> */
+
+/* ----------------fin PANTALLA INICIO 600px---------- */
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ----------------PANTALLA INICIO ESCRITORIO 1200px---------- */
+
+@media (min-width: 1200px) {
+
+    /* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+    .buscador {
+        font-size: 1.2em;
+        display: flex;
+        text-align: center;
+
+    }
+
+    .ncabezado__logo-empresa {
+        width: 7em;
+    }
+
+    .encabezado_pricipal-empresa {
+        display: flex;
+        gap: 9em;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(15, 13, 17);
+        align-items: center;
+        padding: 1.5em 0em 2em 2em;
+    }
+
+    /* ----------------fim ENCABEZADO PRONCIPAL-------------- */
+
+    /* <!-- -----------------BARRA DE NAVEGACION------------ --> */
+    .navbar>.container-fluid {
+        background-color: rgb(59, 58, 57);
+        margin: 0%;
+    }
+
+    .bg-body-tertiary {
+        padding: 0%;
+
+    }
+
+    .navbar-toggler {
+        background-color: chocolate;
+        margin: 0.5em;
+        font-size: 0.75em;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .navbar-nav {
+
+        background-color: rgb(188, 177, 177);
+        gap: 3em;
+        font-size: 1rem;
+        color: rgb(138, 62, 62) !important;
+        ;
+
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        /* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+    }
+/* --------------------carrusel--------------- */
+
+ .carousel-inner{
+    height: 25em;
+}
+/* --------------------fin carrusel--------------- */
+
+    /* --------- carrusel MARCAS---------- */
+    .marcas_portada {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .marca {
+        width: 6em;
+        height: 5.5em;
+        background-color: white;
+        padding: 0.5rem;
+    }
+
+    .tarjeta_portda_marcas {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* ---------fin carrusel MARCAS---------- */
+
+
+
+
+    /* -----------------CATEGORIAS DE PRODUCTOS---------- */
+
+    .galeria_productos {
+        background-color: rgba(241, 242, 242, 0.984);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: space-around;
+        padding: 0% 0% 2.3em 0%;
+
+    }
+
+    .texto_galeria_oroductos {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(223, 228, 228, 0.984);
+        margin: 0.em 0% 0% 0%;
+        padding: 0.5em;
+    }
+
+
+    /* -------------tarjetas__ img- productos---------- */
+    .tarjeta {
+        width: 16em;
+        height: 16em;
+        background-color: white;
+
+    }
+
+    .tarjeta_img {
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+    }
+
+
+    /* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+
+
+
+    /* <!-- -------------footer---------- --> */
+
+    .conteiner__datos-contacto {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* <!-- -------------fin footer---------- --> */
+
+
+
+
+
+}
+
+/* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+
+/* ---------------- fin PANTALLA INICIO ESCRITORIO 1200px---------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------section GALERIA PANTALLA 350PX -------------- */
+/* -----------img de galeria cargadas en html con boostrap---------- */
+
+.img__galeria {
+    padding: 0.2em;
+
+    background-color: white;
+}
+
+.col-12 {
+    padding: 0%;
+}
+
+/* -----------fin img de galeria cargadas en html con boostrap---------- */
+
+
+
+
+/* <!-- -------------GALERIA DE PRODUCTOS-------- --> */
+
+
+/* <!-- -------------GALERIA DE PRODUCTOS-------- -->
+
+       /* <!-- -------------footer---------- --> */
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------section CONTACTO PANTALLA 350PX -------------- */
+/* ----------------section contacto PANTALLA 350PX -------------- */
+
+/* ------------------consultas-------------- */
+.portada__principal-contenedor {
+    background-color: rgba(173, 188, 188, 0.295);
+}
+
+.texto__contacto {
+    padding: 1em;
+}
+
+/*
+  .container__portada-img{
+    background-image: url(./imagenes/HTML_CONTACTOS/img_portada_pricipal/nuevo\ portada.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+   justify-content:center;
+   align-items: center;
+    width: 100vh;
+    height:220px;
+    color: white;
+
+   } */
+/* .container_portada-img{
+    background-image: url(./imagenes/HTML_CONTACTOS/img_portada_pricipal/nuevo\ portada.jpg);
+   } */
+
+.titulo__contacto {
+    background-image: url(./imagenes/HTML_CONTACTOS/img_portada_pricipal/nuevo\ portada.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+/* --------------------texto consulta------------------- */
+
+
+.consultas {
+    color: red;
+}
+
+.contenido__consultas {
+    font-size: 0.9em;
+}
+
+.spam__consultas {
+    font-size: 0.9em;
+}
+
+/* ------------formulario consultas------------- */
+.formulario_consultas {
+    margin-top: 1em;
+}
+
+.btn__formulario {
+    background-color: rgba(243, 10, 10, 0.747);
+    color: white;
+}
+
+
+
+/* ------------fin  formulario consultas------------- */
+/* ------------------fin consultas-------------- */
+
+/* -------------------------mapas------------------- */
+.container__mapa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* -------------------------fin mapas------------------- */
+
+/* ---------------horarios de atencion------------- */
+
+.horarios__atencion {
+    font-size: 0.9em;
+    padding: 1em;
+    ;
+}
+
+.titulo__mapas {
+    padding: 1em;
+}
+
+.contenedor_mapa {
+    border: 2px solid rgb(110, 105, 105);
+    margin: 1em;
+}
+
+/* ---------------fin horarios de atencion------------- */
+
+
+/* ----------------FIN section contacto PANTALLA 350PX -------------- */
+/* ---------------------------------------------------------------------------------- */
+
+/* ---------------- section contacto PANTALLA 600PX -------------- */
+@media (min-width: 600px) {
+    .formulario_consultas {
+        margin-block-end: 3em
+    }
+
+    .titulo__contacto {
+        height: 280px;
+        align-items: center;
+    }
+
+    .formulario_consultas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario_consultas {
+        height: 8em;
+    }
+
+    .container__mapa {
+        padding-top: 0.5em;
+    }
+
+    .titulo__mapas {
+        padding: 1em;
+    }
+}
+
+/* ----------------fin section contacto PANTALLA 600PX -------------- */
+
+/* ---------------- section contacto PANTALLA 1200PX -------------- */
+
+@media (min-width: 1200px) {
+    .titulo__mapas {
+        padding: 0% 0% 0% 1em;
+    }
+
+    .formulario_consultas {
+        margin-block-end: 4.3em;
+    }
+
+
+
+    .container__mapa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em;
+        gap: 2em;
+    }
+
+    .datos_contacto-mapa {
+        width: 16em;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: rgba(43, 153, 183, 0.304);
+    }
+
+    .contenedor_mapa {
+        width: 16em;
+        height: 15em;
+    }
+
+    .horario__feriados {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .horarios__atencion {
+        margin: 0%;
+    }
+}
+
+/* ----------------fin section contacto PANTALLA 1200PX -------------- */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------section productos pantalla 350px----------- */
+
+
+/* ----------------IMG transparente y titulo ---------------------- */
+
+.contenedor__img-transparente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    height: 135px;
+}
+
+.tituloss__portada-principal {
+
+    color: rgb(114, 113, 113);
+    width: 100%;
+    height: 135px;
+}
+
+.img__transparente {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+
+}
+
+.titulo__portada-principal {
+    position: absolute;
+    top: 9.58em;
+    /* left: em; */
+
+    padding: 0.5em;
+    font-size: 1.3em;
+    font-family: serif;
+}
+
+/* ----------------fin IMG transparente y titulo ---------------------- */
+
+/* --------------subtitulo------------- */
+
+.contendor__portada-principal {
+    padding: 0.8em;
+}
+
+.subtitulo__portada {
+    display: flex;
+    padding: 0.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(141, 146, 146, 0.26);
+}
+
+.tarjeta__producto {
+    padding: 0%;
+    margin: 0%;
+    width: 15;
+}
+
+
+.card {
+    display: flex;
+    width: 9.5rem;
+    height: 15rem;
+    padding: 0.7em;
+    margin: 0%;
+    margin-top: 0.7em;
+}
+
+.card:hover {
+    background-color: rgba(129, 146, 146, 0.142);
+}
+
+.card-text {
+    color: rgb(115, 203, 27);
+    font-size: 0.8em;
+    margin: 0%;
+}
+
+.btn {
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 0.3em;
+
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.card-body {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4em;
+    width: 8em;
+    height: 8.4em;
+
+}
+
+.card-title {
+    padding: 0.2em;
+    /* height: 100%;
+width: 100%; */
+    /* font-size:0.9em; */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    margin: 0%;
+}
+
+/* .col-6{
+    padding: 0%;
+    margin: 0%;
+} */
+
+.contenedor__img {
+    display: flex;
+    width: 6.8em;
+    height: 5em
+}
+
+.img_producto {
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------fin section productos pantalla 350px----------- */
+
+
+
+
+
+
+
+/* ----------------------section productos pantalla 600px----------- */
+/* SE USO BOOSTRAP PARA ALGUNOS ESTILOS */
+
+/* ----------------------- FIN section productos pantalla 600px----------- */
+@media (min-width: 1200px) {
+    .contendor__portada-principal {
+        width: 800px;
+    }
+
+
+}
+
+/* ----------------------- section productos pantalla 1200px----------- */
+
+
+
+/* -----------------------fin section productos pantalla 1200px----------- */

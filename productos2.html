@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles-index.css">
+</head>
+<body>
+    
+
+<!-- /* ----------------ENCABEZADO PRINCIPAL-------------- */ -->
+
+<header>
+
+    <section class="encabezado_pricipal-empresa"> <!-- ex div logo encabezado_pricipal-->
+
+      <img src="./imagenes/logo_empresa/Hiemar-logo.png" alt="" class="encabezado__logo-empresa"> <!-- ex div logo -->
+
+      <!-- formulario de buscador -->
+      <div class="buscador">
+        <form action="">
+          <label for="productos">Productos</label>
+          <input type="text" id="productos">
+          <input type="submit" value="Buscar">
+        </form>
+      </div>
+    </section>
+
+ 
+  <!-- /* ----------------ENCABEZADO PRINCIPAL-------------- */ -->
+
+  <!-- -----------------BARRA DE NAVEGACION------------ -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid ">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria2.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto2.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos2.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Hierros</a></li>
+                <li><a class="dropdown-item" href="#">Ceramicos</a></li>
+                <li><a class="dropdown-item" href="#">Cementos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+    <!-- ----------------- fin BARRA DE NAVEGACION------------ -->
+
+
+
+<main>
+        <section class="contenedor__img-transparente">
+
+            <div class="tituloss__portada-principal">
+
+              <img src="./imagenes/HTML_PRODUCTOS/img__fondo-nuevo.jpeg" alt="fondo" class="img__transparente">
+          
+             <h1 class="titulo__portada-principal fw-bold"> CONTRUYENDO LA ARGENTINA QUE QUEREMOS.</h1>
+          
+            </div>
+        
+        </section>
+<!-- --------------------------- -->
+<h6 class="subtitulo__portada">Tenemos lo que necesitas!</h6>
+  
+<!-- <article class="contenedor__img">
+  <a href="./Ladrillos.html" target="_blank"><img src="./imagenes/html_inicio/img_productos-INICIO/pintura.webp" alt=""
+      class="aaaa">
+
+</article> -->
+
+  <section class="container  contendor__portada-principal">
+
+    <div class="row     ">
+      <!-- ------------primer tarjeta--------------- -->
+      <article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+        <div class="card">
+          
+            <div class="contenedor__img">
+           <img src="./imagenes/html_inicio/img_productos-INICIO/pintura.webp" class="img_producto card-img-top" alt="...">
+          </div>
+      
+      
+           <div class="card-body">
+             <h8 class="card-title">Pintura</h8>
+              
+            <p class="card-text"> $6475.50  </p> 
+      
+             <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+             <a href="#" class="btn btn-primary ">Mas detalles</a>
+           </div>
+         </div>
+      </article>
+      <!-- ------------primer tarjeta--------------- -->
+
+      <!-- ----------------segunda tarjeta-------------- -->
+
+      <article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+        <div class="card">
+          
+            <div class="contenedor__img">
+           <img src="./imagenes/html_inicio/img_productos-INICIO/cemento.jpg" class="img_producto card-img-top" alt="...">
+          </div>
+      
+        
+      
+           <div class="card-body">
+             <h8 class="card-title">Cemento</h8>
+
+            <p class="card-text"> $1600,00  </p> 
+      
+             <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+             <a href="#" class="btn btn-primary ">Mas detalles</a>
+           </div>
+         </div>
+      </article>
+
+<!-- ----------------segunda tarjeta-------------- -->
+
+<!-- --------------tercera tarjeta------------- -->
+
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class="card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/hierros.jpeg" class="img_producto  card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Hierro 6mm</h8>
+        
+      <p class="card-text"> $1200,00  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+
+<!-- --------------tercera tarjeta------------- -->
+
+<!-- -------------------cuarta tarjeta--------------- -->
+
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class=" card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/ladrillo_hueco.jpg" class="img_producto card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Ladrillo 8</h8>
+       
+      <p class="card-text"> $108,5  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+
+<!-- -------------------cuarta tarjeta--------------- -->
+<!-- ----------------quinta tarjeta-.---------- -->
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class=" card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/ladrillos.jpg" class="img_producto card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Ladrillo comun</h8>
+         
+      <p class="card-text"> $65,5  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+<!-- ----------------quinta tarjeta-.---------- -->
+
+<!-- -----------------------sexta tarjeta----------- -->
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class="card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/viguetas.jpg" class="img_producto card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Vigueta p/t</h8>
+         
+      <p class="card-text"> $1350,00  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+<!-- -----------------------sexta tarjeta----------- -->
+
+<!-- -----------------------septima tarjeta----------- -->
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class="card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/cerecita.webp" class="img_producto card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Cerecita 20L</h8>
+         
+      <p class="card-text"> $1850,00  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+<!-- -----------------------septimatarjeta----------- -->
+
+<!-- -----------------------octaba tarjeta----------- -->
+<article class=" col-6 col-sm-4 col-lg-3 tarjeta__producto">
+  <div class="card">
+    
+      <div class="contenedor__img">
+     <img src="./imagenes/html_inicio/img_productos-INICIO/membrana.jpg.webp" class="img_producto card-img-top" alt="...">
+    </div>
+
+
+     <div class="card-body">
+       <h8 class="card-title">Membrana</h8>
+         
+      <p class="card-text"> $1200,00  </p> 
+
+       <a href="#" class="btn btn-primary ">Añadir al carrito</a>
+       <a href="#" class="btn btn-primary ">Mas detalles</a>
+     </div>
+   </div>
+</article>
+<!-- -----------------------octaba tarjeta----------- -->
+</div>
+</section>     
+
+</main>
+
+
+
+
+<!-- -------------footer---------- -->
+<footer>
+
+    <!-- REDES SOCIALES -->
+
+    <section class="primer_encabezado">
+      <section class="redes_encabezado">
+
+        <div class="caja"> <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/html_inicio/redes/descarga.jpg"
+              alt="" class="redes"> </a></div>
+
+        <div class="caja"> <a href="https://es-la.facebook.com/" target="_blank"><img src="/imagenes/html_inicio/redes/face.png"
+              alt="" class="redes"> </a></div>
+
+        <div class="caja"><a href="https://www.linkedin.com/feed/" target="_blank"> <img src="./imagenes/html_inicio/redes/lin.jpg"
+              alt="" class="redes"> </a></div>
+
+      </section class="container__horario-titulo">
+
+
+      <span class="horario_encabezado"> LUN A VIE: 8:00 A 18:00 | SAB: 8:00 A 13:00</span>
+      <span class="titulo_footer"> Comuniquese con nosotros por cualquiera de nuestros medios. </span>
+    </section>
+
+    <!--fin REDES SOCIALES -->
+  <section class="conteiner__datos-contacto">
+    <div class="datos_contacto">
+
+
+
+      <h4>Sucursal zona Oeste</h5>
+        <br>
+        <ul class="lista_contacto">
+          <li>Tel: 011-5646-0250</li>
+          <li>Email: zonaoeste@coder.com</li>
+          <li>Direcion: Libertador 251</li>
+        </ul>
+
+
+    </div>
+    <div class="datos_contacto">
+
+      <h4>Sucursal zona Norte</h5>
+
+        <ul class="lista_contacto">
+          <li>Tel: 011-5646-0250</li>
+          <li>Email: zonaoeste@coder.com</li>
+          <li>Direcion: Libertador 251</li>
+        </ul>
+    </div>
+  </section>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+</html>
