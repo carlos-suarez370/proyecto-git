@@ -487,7 +487,7 @@ a {
    } */
 
 .titulo__contacto {
-    background-image: url(./imagenes/HTML_CONTACTOS/img_portada_pricipal/nuevo\ portada.jpg);
+    background-image: url(./imagenes/html_contactos/img_portada_pricipal/nuevo\ portada.jpg);
     background-position: center;
     background-size: cover;
 
@@ -595,6 +595,10 @@ a {
 /* ---------------- section contacto PANTALLA 1200PX -------------- */
 
 @media (min-width: 1200px) {
+     .titulo__contacto{
+        font-size: 4rem;
+     }
+
     .titulo__mapas {
         padding: 0% 0% 0% 1em;
     }
@@ -803,3 +807,46 @@ width: 100%; */
 
 
 /* -----------------------fin section productos pantalla 1200px----------- */
+
+
+
+/* ----------------------section nosotros pantalla 350px----------- */
+/* --------------img y titulo----------- */
+
+
+.container__nosotros{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+
+}
+.titulo__nosotros{
+    padding: 0.55em;
+    background-color: brown;
+    font-size: 1.5em;
+    color: rgb(239, 216, 216);
+}
+
+
+.img-principal__nosotros{
+background-image: url(./imagenes/html_quienes-somos/valores2.jpg);
+background-position: center;
+background-size: cover;
+
+height: 220px;
+display: flex;
+justify-content: center;
+color: white;
+font-size: 2.5em;
+padding: 1em;
+
+}
+
+/* --------------img y titulo----------- */
+
+
+
+
+/* ----------------------section nosotros pantalla 350px----------- */
+
