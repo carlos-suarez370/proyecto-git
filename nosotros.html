@@ -15,60 +15,63 @@
 <body>
   <!-- /* ----------------ENCABEZADO PRINCIPAL-------------- */ -->
 
-  <header>
+  <header class="sticky-top">
 
-    <section class="encabezado_pricipal-empresa"> <!-- ex div logo encabezado_pricipal-->
+   
+      <section class="encabezado_pricipal-empresa"> <!-- ex div logo encabezado_pricipal-->
 
-      <img src="./imagenes/logo_empresa/Hiemar-logo.png" alt="" class="encabezado__logo-empresa"> <!-- ex div logo -->
-
-      <!-- formulario de buscador -->
-      <div class="buscador">
-        <form action="">
-          <label for="productos">Productos</label>
-          <input type="text" id="productos">
-          <input type="submit" value="Buscar">
-        </form>
+        <img src="./imagenes/logo_empresa/Hiemar-logo.png" alt="" class="encabezado__logo-empresa"> <!-- ex div logo -->
+  
+        <!-- formulario de buscador -->
+        <div class="buscador">
+          <form action="">
+            <label for="productos">Productos</label>
+            <input type="text" id="productos">
+            <input type="submit" value="Buscar">
+          </form>
+        </div>
+      </section>
+  
+    
+    <!-- /* ----------------finn ENCABEZADO PRINCIPAL-------------- */ -->
+  
+    <!-- -----------------BARRA DE NAVEGACION------------ -->
+  
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid ">
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria2.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto2.html">Contacto</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="./productos2.html">Productos</a>
+            </li>
+   
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </section>
-
-  </header>
-  <!-- /* ----------------finn ENCABEZADO PRINCIPAL-------------- */ -->
-
-  <!-- -----------------BARRA DE NAVEGACION------------ -->
-
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-    <div class="container-fluid ">
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./galeria2.html">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto2.html">Contacto</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./productos2.html">Productos</a>
-          </li>
- 
-          <li class="nav-item">
-            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- ----------------- fin BARRA DE NAVEGACION------------ -->
-
+    </nav>
+    <!-- ----------------- fin BARRA DE NAVEGACION------------ -->
+  
+  
+   
   </header>
 
   <main>
@@ -94,12 +97,20 @@
       </p>
     </section>
 
+    <div class="bandera-arg"></div>
+<section class="contenedor__img-niños">
 
-    <div class="img-niños">
+  <div class="img-niños">
+    <p class="texto__niños"> Promovemos los derechos de los niños, niñas y adolescentes.</p>
 
-      <p class="texto__niños"> Promovemos los derechos de los niños, niñas y adolescentes</p>
+  </div>
+
+    <div class="img-niño-albañil">
+      <p class="texto__niños"> Que la unica obligacion de los niños sea crecer y no el trabajo!</p>
 
     </div>
+  </section>
+  <div class="bandera-arg"></div>
 
 
     <section class="nuestra-empresa">
@@ -117,6 +128,8 @@
         temporibus debitis quisquam qui placeat eum, sequi iusto, sit </p>
 
     </section>
+    
+
 
   </main>
 
