@@ -489,7 +489,15 @@ flex-direction: row;
 
 
     /* <!-- -------------footer---------- --> */
+      .horario_encabezado{
+        width: 30em;
+        
+      }
 
+     .primer_encabezado{
+        flex-direction: row;
+        justify-content: space-evenly;
+     }
     .conteiner__datos-contacto {
         background-color: black;
         display: flex;
