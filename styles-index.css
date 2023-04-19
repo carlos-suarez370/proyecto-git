@@ -12,7 +12,7 @@ ol {
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none ;
 }
 
 /* ----------------fin aclaraciones css---------- */
@@ -30,8 +30,12 @@ width: 100%;
 height: 30px;
 font-size: 1em;
 margin-bottom: 0rem;
-
+padding: 0em 1.5em 0em 0em;
 }
+.tarjeta-wsp:hover{
+    font-size: 0.75em;
+}
+
 
 .tarjeta-wsp{
 display: flex;
@@ -49,6 +53,7 @@ background-color: rgb(61, 213, 31);
 gap: 0.2em;
 border-radius: 12px;
 color: white;
+
 }
 
 .img-wsp{
@@ -65,37 +70,6 @@ color: white;
 
 
 
-/* .contenedor__wsp{
-    display: flex;
-    justify-content: center;
-width: 100%;
-height: 30px;
-font-size: 1em;
-}
-
-.tarjeta-wsp{
-display: flex;
-justify-content: center;
-
-flex-direction: row;
-width: 15em;
-height: 30px;
-
-background-color: aqua;
-gap: 0.2em;
-border-radius: 12px;
-padding: 0% 0em 0% 0.7em;
-}
-
-.img-wsp{
-    background-image: url(./imagenes/logo_empresa/img-wsp.png);
-    background-position: center;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-   
-} */
-/* <!-- --------------fin tarjeta de  wsp------- --> */
 /* ---------barra desplegable----------- */
 .navbar>.container-fluid {
     background-color: rgb(59, 58, 57);
@@ -253,6 +227,7 @@ padding: 0% 0em 0% 0.7em;
     color: black;
     width: 100%;
     padding: 0.6em;
+    text-align: center;
 
 }
 
@@ -274,7 +249,14 @@ padding: 0% 0em 0% 0.7em;
     background-color: black;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    gap: 1em;
+}
+.conteiner__datos-contacto{
+flex-direction: row;
 }
 
 .iframe {
@@ -283,13 +265,19 @@ padding: 0% 0em 0% 0.7em;
     min-height: min-content;
 }
 
-.texto_final {
-    background-color: black;
-    color: rgb(131, 125, 125);
-    padding: 5px;
-
+.mapa__footer{
+    width: 120px;
+    height: 100px;
 }
 
+.tamaño-mapa__footer{
+    width: 100%;
+    height: 100%;
+}
+
+.texto__footer{
+    padding: 0em 0em 0em 1em;
+}
 /* ------------fin footer------------ */
 
 /* ---------------fin dispocitivo movil 350px----------- */
@@ -606,6 +594,7 @@ padding: 0% 0em 0% 0.7em;
     font-size: 0.9em;
 }
 
+
 /* ------------formulario consultas------------- */
 .formulario_consultas {
     margin-top: 1em;
@@ -614,6 +603,7 @@ padding: 0% 0em 0% 0.7em;
 .btn__formulario {
     background-color: rgba(243, 10, 10, 0.747);
     color: white;
+    width: 15em;
 }
 
 
@@ -694,12 +684,35 @@ padding: 0% 0em 0% 0.7em;
     .titulo__mapas {
         padding: 0% 0% 0% 1em;
     }
-
+.sub-titulo__consultas{
+    color: red;
+}
     .formulario_consultas {
-        margin-block-end: 4.3em;
+     display: flex;
+     flex-direction: row;
+     gap: 4em;
+        
+        
+      margin-block-end: 4.3em;
+        
     }
+.texto-video{
+    width: 14em;
+    height: 12em;
+   
+}
+
+.btn__formulario {
+    background-color: rgba(243, 10, 10, 0.747);
+    color: white;
+    width: 25em;
+}
 
 
+
+.contenedor__video-consultas{
+    width: 40%;
+}
 
     .container__mapa {
         display: flex;
@@ -717,7 +730,7 @@ padding: 0% 0em 0% 0.7em;
         justify-content: center;
         align-items: center;
         color: black;
-        background-color: rgba(43, 153, 183, 0.304);
+        background-color: rgba(43, 153, 183, 0.18);
     }
 
     .contenedor_mapa {
@@ -887,7 +900,7 @@ width: 100%; */
 /* ----------------------- FIN section productos pantalla 600px----------- */
 @media (min-width: 1200px) {
     .contendor__portada-principal {
-        width: 800px;
+        width: 960px;
     }
 
     .tituloss__portada-principal {
@@ -1085,13 +1098,14 @@ background-repeat: no-repeat;
         background-repeat: no-repeat;
         background-color: white;
         height: 11em;
-
+         
 
         border: solid 0px;
-        font-size: 3.5em;
+        font-size: 1.6em;
         padding: 0%;
 
     }
+
 
 
     .img-niños {
