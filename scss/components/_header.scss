@@ -1,0 +1,129 @@
+/* ----------------PANTALLA MOVIL 350px---------- */
+
+/* ---------barra desplegable----------- */
+.navbar>.container-fluid {
+    background-color: rgb(59, 58, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+.navbar-collapse {
+    background-color: rgb(213, 198, 178);
+}
+.bg-body-tertiary {
+    padding: 0%;
+}
+.navbar-toggler {
+    background-color: $color__nav;
+    margin: 0.5em;
+    font-size: 0.75em;
+
+}
+.nav-item :hover {
+    background-color: rgba(209, 187, 145, 0.482);
+    border: 4px solid $color__border-solid;
+    font-size: 1em;
+}
+
+/* ---------fin barra desplegable----------- */
+/* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+
+.encabezado_pricipal-empresa {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6em;
+    gap: 1em;
+    color: white;
+/* --------- FIN  LOGO DE LA EMPRES__Y BUSCADOR------------- */
+/* ----------------fin PANTALLA  MOVIL 350px---------- */
+}
+
+/* ----------------PANTALLA  600px---------- */
+@media (min-width: 600px) {
+    .primer_encabezado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: chocolate;
+        padding: 1em;
+    }
+    .caja {
+        width: 30px;
+        height: 30px;
+    }
+    .redes {
+        width: 100%;
+        height: 100%;
+    }
+    /* <!--fin PRIMER ENCABEZADO HORARIOS Y REDES SOCIALES --> */
+    /* ----------------ENCABEZADO PRiNCIPAL-------------- */
+    .encabezado_pricipal-empresa {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(15, 13, 17);
+        align-items: center;
+        padding: 1rem;
+    }
+    /* ----------------ENCABEZADO PRONCIPAL-------------- */
+/* ----------------fin PANTALLA  600px---------- */
+}
+
+/* ----------------PANTALLA  1200px---------- */
+
+@media (min-width: 1200px) {
+
+    /* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+    .buscador {
+        font-size: 1.2em;
+        display: flex;
+        text-align: center;
+    }
+    .ncabezado__logo-empresa {
+        width: 7em;
+    }
+    .encabezado_pricipal-empresa {
+        display: flex;
+        gap: 9em;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(15, 13, 17);
+        align-items: center;
+        padding: 1.5em 0em 2em 2em;
+    }
+    /* ----------------fim ENCABEZADO PRONCIPAL-------------- */
+    /* <!-- -----------------BARRA DE NAVEGACION------------ --> */
+    .navbar>.container-fluid {
+        background-color: rgb(59, 58, 57);
+        margin: 0%;
+    }
+    .bg-body-tertiary {
+        padding: 0%;
+    }
+    .navbar-toggler {
+        background-color: chocolate;
+        margin: 0.5em;
+        font-size: 0.75em;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-nav {
+        background-color: rgb(188, 177, 177);
+        gap: 3em;
+        font-size: 1rem;
+        color: rgb(138, 62, 62) !important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        /* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+    }
+}
+/* ----------------fin PANTALLA 1200px---------- */
+
+

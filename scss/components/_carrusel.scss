@@ -1,0 +1,69 @@
+/* ----------------PANTALLA inicio (index) MOVIL 350px---------- */
+.carousel-inner {
+    height: 13.5em;
+}
+
+/* --------- carrusel MARCAS---------- */
+
+.marcas_portada {
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.marca {
+
+    width: 4em;
+    height: 4.5em;
+
+    background-color: white;
+
+    padding: 0.5rem;
+}
+
+.tarjeta_portda_marcas {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------fin carrusel MARCAS---------- */
+/* ----------------fin PANTALLA inicio (index) MOVIL 350px---------- */
+/* ----------------PANTALLA INICIO (index) 600px---------- */
+@media (min-width: 600px) {
+    .carousel-inner {
+        height: 18em;
+    }
+}
+/* ----------------fin PANTALLA INICIO  600px---------- */
+
+/* ----------------PANTALLA INICIO (index) ESCRITORIO 1200px---------- */
+
+@media (min-width: 1200px) {
+
+ .carousel-inner {
+    height: 25em;
+}
+
+/* --------- carrusel MARCAS---------- */
+.marcas_portada {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.marca {
+    width: 6em;
+    height: 5.5em;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.tarjeta_portda_marcas {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ---------fin carrusel MARCAS---------- */
+}

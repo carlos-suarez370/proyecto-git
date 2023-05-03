@@ -1,0 +1,958 @@
+@charset "UTF-8";
+/* ----------------aclaraciones css---------- */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------fin aclaraciones css---------- */
+/* -----------------------section productos pantalla 350px----------- */
+.btn {
+  font-size: 0.5em;
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  padding: 0.3em;
+}
+
+.btn:hover {
+  background-color: brown;
+}
+
+/* -----------------------fin section productos pantalla 350px----------- */
+.btn__formulario {
+  background-color: rgba(243, 10, 10, 0.747);
+  color: white;
+  width: 15em;
+}
+
+/* ----------------section contacto PANTALLA 1200PX -------------- */
+@media (min-width: 1200px) {
+  .btn__formulario {
+    background-color: rgba(243, 10, 10, 0.747);
+    color: white;
+    width: 25em;
+  }
+  /* ----------------fin section contacto PANTALLA 1200PX -------------- */
+}
+/* ----------------PANTALLA inicio (index) MOVIL 350px---------- */
+.carousel-inner {
+  height: 13.5em;
+}
+
+/* --------- carrusel MARCAS---------- */
+.marcas_portada {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.marca {
+  width: 4em;
+  height: 4.5em;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.tarjeta_portda_marcas {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------fin carrusel MARCAS---------- */
+/* ----------------fin PANTALLA inicio (index) MOVIL 350px---------- */
+/* ----------------PANTALLA INICIO (index) 600px---------- */
+@media (min-width: 600px) {
+  .carousel-inner {
+    height: 18em;
+  }
+}
+/* ----------------fin PANTALLA INICIO  600px---------- */
+/* ----------------PANTALLA INICIO (index) ESCRITORIO 1200px---------- */
+@media (min-width: 1200px) {
+  .carousel-inner {
+    height: 25em;
+  }
+  /* --------- carrusel MARCAS---------- */
+  .marcas_portada {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .marca {
+    width: 6em;
+    height: 5.5em;
+    background-color: white;
+    padding: 0.5rem;
+  }
+  .tarjeta_portda_marcas {
+    width: 100%;
+    height: 100%;
+  }
+  /* ---------fin carrusel MARCAS---------- */
+}
+/* ------------formulario consultas------------- */
+.formulario_consultas {
+  margin-top: 1em;
+}
+
+/* ------------fin  formulario consultas------------- */
+/* ---------------- section contacto PANTALLA 600PX -------------- */
+@media (min-width: 600px) {
+  .formulario_consultas {
+    margin-block-end: 3em;
+    display: flex;
+    flex-direction: column;
+    height: 8em;
+  }
+}
+/* ----------------fin section contacto PANTALLA 600PX -------------- */
+/* ----------------section contacto PANTALLA 1200PX -------------- */
+@media (min-width: 1200px) {
+  .formulario_consultas {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    margin-block-end: 4.3em;
+  }
+}
+/* ----------------fin section contacto PANTALLA 1200PX -------------- */
+/* ----------------PANTALLA MOVIL 350px---------- */
+/* ---------barra desplegable----------- */
+.navbar > .container-fluid {
+  background-color: rgb(59, 58, 57);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+}
+
+.navbar-collapse {
+  background-color: rgb(213, 198, 178);
+}
+
+.bg-body-tertiary {
+  padding: 0%;
+}
+
+.navbar-toggler {
+  background-color: chocolate;
+  margin: 0.5em;
+  font-size: 0.75em;
+}
+
+.nav-item :hover {
+  background-color: rgba(209, 187, 145, 0.482);
+  border: 4px solid chocolate;
+  font-size: 1em;
+}
+
+/* ---------fin barra desplegable----------- */
+/* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+.encabezado_pricipal-empresa {
+  background-color: rgb(36, 35, 35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6em;
+  gap: 1em;
+  color: white;
+  /* --------- FIN  LOGO DE LA EMPRES__Y BUSCADOR------------- */
+  /* ----------------fin PANTALLA  MOVIL 350px---------- */
+}
+
+/* ----------------PANTALLA  600px---------- */
+@media (min-width: 600px) {
+  .primer_encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    padding: 1em;
+  }
+  .caja {
+    width: 30px;
+    height: 30px;
+  }
+  .redes {
+    width: 100%;
+    height: 100%;
+  }
+  /* <!--fin PRIMER ENCABEZADO HORARIOS Y REDES SOCIALES --> */
+  /* ----------------ENCABEZADO PRiNCIPAL-------------- */
+  .encabezado_pricipal-empresa {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(15, 13, 17);
+    align-items: center;
+    padding: 1rem;
+  }
+  /* ----------------ENCABEZADO PRONCIPAL-------------- */
+  /* ----------------fin PANTALLA  600px---------- */
+}
+/* ----------------PANTALLA  1200px---------- */
+@media (min-width: 1200px) {
+  /* ---------LOGO DE LA EMPRES__Y BUSCADOR------------- */
+  .buscador {
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+  }
+  .ncabezado__logo-empresa {
+    width: 7em;
+  }
+  .encabezado_pricipal-empresa {
+    display: flex;
+    gap: 9em;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(15, 13, 17);
+    align-items: center;
+    padding: 1.5em 0em 2em 2em;
+  }
+  /* ----------------fim ENCABEZADO PRONCIPAL-------------- */
+  /* <!-- -----------------BARRA DE NAVEGACION------------ --> */
+  .navbar > .container-fluid {
+    background-color: rgb(59, 58, 57);
+    margin: 0%;
+  }
+  .bg-body-tertiary {
+    padding: 0%;
+  }
+  .navbar-toggler {
+    background-color: chocolate;
+    margin: 0.5em;
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-nav {
+    background-color: rgb(188, 177, 177);
+    gap: 3em;
+    font-size: 1rem;
+    color: rgb(138, 62, 62) !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    /* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+  }
+}
+/* ----------------fin PANTALLA 1200px---------- */
+/* ----------------PANTALLA MOVIL 350px---------- */
+/* <!-- --------------tarjeta de  wsp------- --> */
+.contenedor__wsp {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 30px;
+  font-size: 1em;
+  margin-bottom: 0rem;
+  padding: 0em 1.5em 0em 0em;
+}
+
+.tarjeta-wsp:hover {
+  font-size: 0.75em;
+}
+
+.tarjeta-wsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15em;
+  height: 23px;
+  font-size: 0.7em;
+  text-align: center;
+  background-color: rgb(61, 213, 31);
+  gap: 0.2em;
+  border-radius: 12px;
+  color: white;
+}
+
+.img-wsp {
+  background-image: url(/imagenes/logo_empresa/img-wsp2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+/* <!-- --------------fin tarjeta de  wsp------- --> */
+/* -------------tarjetas__ img- productos---------- */
+.tarjeta {
+  width: 8em;
+  height: 6em;
+  background-color: white;
+}
+
+.tarjeta:hover {
+  background-color: rgba(129, 146, 146, 0.142);
+}
+
+.tarjeta_img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+/* -------------fin tarjetas__ img- productos---------- */
+/* ----------------fin PANTALLA MOVIL 350px---------- */
+/* ----------------PANTALLA INICIO 1200px---------- */
+@media (min-width: 1200px) {
+  /* -------------tarjetas__ img- productos---------- */
+  .tarjeta {
+    width: 16em;
+    height: 16em;
+    background-color: white;
+  }
+  .tarjeta_img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+  }
+  /* -------------tarjetas__ img- productos---------- */
+  /* ----------------PANTALLA INICIO 1200px---------- */
+}
+/* -----------------------section productos pantalla 350px----------- */
+.card-body {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4em;
+  width: 8em;
+  height: 8.4em;
+}
+
+.card-title {
+  padding: 0.2em;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  margin: 0%;
+}
+
+.contenedor__img {
+  display: flex;
+  width: 6.8em;
+  height: 5em;
+}
+
+.img_producto {
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta__producto {
+  padding: 0%;
+  margin: 0%;
+  width: 15;
+}
+
+.card {
+  display: flex;
+  width: 9.5rem;
+  height: 15rem;
+  padding: 0.7em;
+  margin: 0%;
+  margin-top: 0.7em;
+}
+
+.card:hover {
+  background-color: rgba(129, 146, 146, 0.142);
+}
+
+.card-text {
+  color: rgb(115, 203, 27);
+  font-size: 0.8em;
+  margin: 0%;
+}
+
+/* -----------------------fin section productos pantalla 350px----------- */
+/* ----------------------section productos pantalla 1200px----------- */
+/* ----------------------section productos pantalla 1200px----------- */
+/* ----------------PANTALLA MOVIL 350px---------- */
+/* -----------------CATEGORIAS DE PRODUCTOS---------- */
+.galeria_productos {
+  background-color: rgba(241, 242, 242, 0.984);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-around;
+  padding: 0% 0% 2.3em 0%;
+}
+
+.texto_galeria_oroductos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(223, 228, 228, 0.984);
+  margin: 0% 0% 0% 0%;
+  padding: 0.5em;
+}
+
+/* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+/* ---------------fin dispocitivo movil 350px----------- */
+/* --------------------------------------------------------------------------------------- */
+/* ----------------PANTALLA INICIO 600px---------- */
+@media (min-width: 600px) {
+  .primer_encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    padding: 1em;
+  }
+  .caja {
+    width: 30px;
+    height: 30px;
+  }
+  .redes {
+    width: 100%;
+    height: 100%;
+  }
+  /* <!--fin PRIMER ENCABEZADO HORARIOS Y REDES SOCIALES --> */
+}
+/* ----------------fin PANTALLA INICIO 600px---------- */
+/* --------------------------------------------------------------------------------------- */
+/* ----------------PANTALLA INICIO (index) ESCRITORIO 1200px---------- */
+@media (min-width: 1200px) {
+  /* -----------------CATEGORIAS DE PRODUCTOS---------- */
+  .galeria_productos {
+    background-color: rgba(241, 242, 242, 0.984);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 0% 0% 2.3em 0%;
+  }
+  .texto_galeria_oroductos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 228, 228, 0.984);
+    margin: 0% 0% 0% 0%;
+    padding: 0.5em;
+  }
+}
+/* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+/* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+/* ---------------- fin PANTALLA INICIO ESCRITORIO 1200px---------- */
+/* ----------------section contacto PANTALLA 350PX -------------- */
+/* ------------------consultas-------------- */
+.portada__principal-contenedor {
+  background-color: rgba(173, 188, 188, 0.295);
+}
+
+.texto__contacto {
+  padding: 0% 1em 1em 1em;
+}
+
+.titulo__contacto {
+  background-image: url(/imagenes/html_contactos/img_portada_pricipal/nuevo\ portada.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.5em;
+  padding: 1em;
+}
+
+/* --------------------texto consulta------------------- */
+.consultas {
+  color: red;
+}
+
+.contenido__consultas {
+  font-size: 0.9em;
+}
+
+.spam__consultas {
+  font-size: 0.9em;
+}
+
+/* ------------------fin consultas-------------- */
+/* -------------------------mapas------------------- */
+.container__mapa {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* -------------------------fin mapas------------------- */
+/* ---------------horarios de atencion------------- */
+.horarios__atencion {
+  font-size: 0.9em;
+  padding: 1em;
+}
+
+.titulo__mapas {
+  padding: 1em;
+}
+
+.contenedor_mapa {
+  border: 2px solid rgb(110, 105, 105);
+  margin: 1em;
+}
+
+/* ---------------fin horarios de atencion------------- */
+/* ----------------FIN section contacto PANTALLA 350PX -------------- */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------- section contacto PANTALLA 600PX -------------- */
+@media (min-width: 600px) {
+  .titulo__contacto {
+    height: 280px;
+    align-items: center;
+  }
+  .container__mapa {
+    padding-top: 0.5em;
+  }
+  .titulo__mapas {
+    padding: 1em;
+  }
+}
+/* ----------------fin section contacto PANTALLA 600PX -------------- */
+/* ---------------- section contacto PANTALLA 1200PX -------------- */
+@media (min-width: 1200px) {
+  .titulo__contacto {
+    font-size: 4rem;
+  }
+  .titulo__mapas {
+    padding: 0% 0% 0% 1em;
+  }
+  .sub-titulo__consultas {
+    color: red;
+  }
+  .texto-video {
+    width: 14em;
+    height: 12em;
+  }
+  .contenedor__video-consultas {
+    width: 40%;
+  }
+  .container__mapa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+  }
+  .datos_contacto-mapa {
+    width: 16em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(43, 153, 183, 0.18);
+  }
+  .contenedor_mapa {
+    width: 16em;
+    height: 15em;
+  }
+  .horario__feriados {
+    margin: 0%;
+    padding: 0%;
+  }
+  .horarios__atencion {
+    margin: 0%;
+  }
+}
+/* ----------------fin section contacto PANTALLA 1200PX -------------- */
+/* ----------------section GALERIA PANTALLA 350PX -------------- */
+/* -----------img de galeria cargadas en html con boostrap---------- */
+.img__galeria {
+  padding: 0.2em;
+  background-color: white;
+}
+
+.col-12 {
+  padding: 0%;
+}
+
+/* -----------fin img de galeria cargadas en html con boostrap---------- */
+/* ----------------------section nosotros pantalla 350px----------- */
+/* --------------img y titulo----------- */
+.container__nosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titulo__nosotros {
+  padding: 0.55em;
+  margin: 0%;
+  background-color: brown;
+  font-size: 1.5em;
+  color: rgb(239, 216, 216);
+}
+
+.img-principal__nosotros {
+  background-image: url(/imagenes/html_quienes-somos/valores2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.5em;
+  padding: 1em;
+}
+
+/* --------------fin img y titulo----------- */
+/* --------------quienes somos----------- */
+.quienes-somos {
+  padding: 0.5em;
+  background-color: rgba(245, 245, 220, 0.582);
+}
+
+/* --------------fin quienes somos----------- */
+/* --------------niños----------- */
+.contenedor__img-niños {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-niños {
+  background-image: url(/imagenes/html_quienes-somos/niños.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 17em;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.texto__niños {
+  background-color: rgba(137, 43, 226, 0.669);
+  width: 16em;
+  text-align: center;
+  height: 3.5em;
+  color: rgb(189, 189, 189);
+  border-radius: 0.6em;
+}
+
+.img-niño-albañil {
+  background-image: url(/imagenes/html_quienes-somos/rem__niñoestudiao.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 17em;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* -------------- fin niños----------- */
+/* --------------------nuestra empresa------------------ */
+.nuestra-empresa {
+  background-color: rgba(245, 245, 220, 0.582);
+  padding: 1em;
+}
+
+/* --------------------fin nuestra empresa------------------ */
+/* ----------------------fin section nosotros pantalla 350px----------- */
+/* ----------------------section nosotros pantalla 600px----------- */
+@media (min-width: 600px) {
+  .img-principal__nosotros {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5em;
+    padding: 1em;
+  }
+  .img-niños {
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .img-niño-albañil {
+    width: 100%;
+    height: 20em;
+  }
+  .texto__niños {
+    background-color: rgba(137, 43, 226, 0.669);
+    width: 13em;
+    text-align: center;
+    height: 4.5em;
+    color: rgb(189, 189, 189);
+    border-radius: 0.6em;
+  }
+}
+/* ----------------------fin section nosotros pantalla 600px----------- */
+/* ----------------------fin section nosotros pantalla 1200px----------- */
+@media (min-width: 1200px) {
+  .img-principal__nosotros {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 11em;
+    border: solid 0px;
+    font-size: 1.6em;
+    padding: 0%;
+  }
+  .img-niños {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 30em;
+  }
+  .texto__niños {
+    background-color: rgba(137, 43, 226, 0.669);
+    width: 16em;
+    text-align: center;
+    height: 3.5em;
+    color: rgb(189, 189, 189);
+    border-radius: 0.6em;
+  }
+  .img-niño-albañil {
+    width: 50%;
+    height: 30em;
+  }
+  .contenedor__img-niños {
+    display: flex;
+    flex-direction: row;
+  }
+  .bandera-arg {
+    background-color: rgb(60, 143, 198);
+    width: 100%;
+    height: 2em;
+  }
+}
+/* ----------------------fin section nosotros pantalla 1200px----------- */
+/* -----------------------section productos pantalla 350px----------- */
+/* ----------------IMG transparente y titulo ---------------------- */
+.tituloss__portada-principal {
+  width: 100%;
+  height: 135px;
+  background-image: url(/imagenes/html_productos/img__fondo-nuevo.jpeg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo__portada-principal {
+  padding: 0.5em;
+  font-size: 1.1em;
+  font-family: serif;
+  opacity: 10;
+  color: black;
+}
+
+/* ----------------fin IMG transparente y titulo ---------------------- */
+/* --------------subtitulo------------- */
+.contendor__portada-principal {
+  padding: 0em 0em 1em 2em;
+}
+
+.subtitulo__portada {
+  display: flex;
+  padding: 0.5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(141, 146, 146, 0.26);
+}
+
+/* -----------------------fin section productos pantalla 350px----------- */
+/* ----------------------section productos pantalla 600px----------- */
+@media (min-width: 600px) {
+  .titulo__portada-principal {
+    padding-top: 2.5em;
+    font-size: 1em;
+  }
+}
+/* ----------------------- FIN section productos pantalla 600px----------- */
+/* ----------------------- section productos pantalla 1200px----------- */
+@media (min-width: 1200px) {
+  .contendor__portada-principal {
+    width: 960px;
+  }
+  .tituloss__portada-principal {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo__portada-principal {
+    padding-top: 2.5em;
+  }
+  .subtitulo__portada {
+    padding: 1em;
+  }
+}
+/* -----------------------fin section productos pantalla 1200px----------- */
+/* ------------footer------------ */
+.caja {
+  width: 20px;
+  height: 20px;
+}
+
+.redes {
+  width: 100%;
+  height: 100%;
+}
+
+.redes_encabezado {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.horario_encabezado {
+  font-size: 0rem;
+  text-align: center;
+  padding: 0% 0% 8px;
+}
+
+.primer_encabezado {
+  background-color: chocolate;
+  color: black;
+  width: 100%;
+  padding: 0.6em;
+  text-align: center;
+}
+
+.titulo_footer {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(85, 84, 91);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datos_contacto {
+  grid-row: span 2;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 1em;
+}
+
+.conteiner__datos-contacto {
+  flex-direction: row;
+}
+
+.iframe {
+  display: flex;
+  width: 100%;
+  min-height: min-content;
+}
+
+.mapa__footer {
+  width: 120px;
+  height: 100px;
+}
+
+.tamaño-mapa__footer {
+  width: 100%;
+  height: 100%;
+}
+
+.texto__footer {
+  padding: 0em 0em 0em 1em;
+}
+
+/* ------------fin footer movile------------ */
+/* ------------footer 600px------------ */
+@media (min-width: 600px) {
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+/* ------------fin footer 600px------------ */
+/* ------------footer 1200px------------ */
+@media (min-width: 1200px) {
+  .horario_encabezado {
+    width: 30em;
+  }
+  .primer_encabezado {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .conteiner__datos-contacto {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/* ------------fin footer 1200px------------ */
+.contenedor__animacion-nosotros {
+  width: 100%;
+  height: 10wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.contenedor__animacion-nosotros figure {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.contenedor__animacion-nosotros figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor__animacion-nosotros figure .capa2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.capa2 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

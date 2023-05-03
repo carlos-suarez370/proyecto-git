@@ -1,0 +1,101 @@
+
+/* ----------------PANTALLA MOVIL 350px---------- */
+
+/* -----------------CATEGORIAS DE PRODUCTOS---------- */
+.galeria_productos {
+    background-color: rgba(241, 242, 242, 0.984);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 0% 0% 2.3em 0%;
+}
+.texto_galeria_oroductos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 228, 228, 0.984);
+    margin:0% 0% 0% 0%;
+    padding: 0.5em;
+}
+
+.capa2 h3{
+    color: #fff;
+      font-size: 15px;
+      line-height: 1.5;
+      width: 100%;
+      max-width: auto;
+   
+  }
+  
+  .capa2 p{
+    color: white;
+  }
+/* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+/* ---------------fin dispocitivo movil 350px----------- */
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ----------------PANTALLA INICIO 600px---------- */
+
+@media (min-width: 600px) {
+
+    .primer_encabezado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: chocolate;
+        padding: 1em;
+    }
+    .caja {
+        width: 30px;
+        height: 30px;
+    }
+    .redes {
+        width: 100%;
+        height: 100%;
+    }
+    /* <!--fin PRIMER ENCABEZADO HORARIOS Y REDES SOCIALES --> */
+
+    
+}
+   
+   
+/* ----------------fin PANTALLA INICIO 600px---------- */
+/* --------------------------------------------------------------------------------------- */
+
+/* ----------------PANTALLA INICIO (index) ESCRITORIO 1200px---------- */
+
+@media (min-width: 1200px) {
+    /* -----------------CATEGORIAS DE PRODUCTOS---------- */
+
+    .galeria_productos {
+        background-color: rgba(241, 242, 242, 0.984);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: space-around;
+        padding: 0% 0% 2.3em 0%;
+
+    }
+
+    .texto_galeria_oroductos {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(223, 228, 228, 0.984);
+        margin: 0% 0% 0% 0%;
+        padding: 0.5em;
+    }
+
+
+   
+}
+    /* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
+/* <!-- -----------------fin BARRA DE NAVEGACION------------ --> */
+
+/* ---------------- fin PANTALLA INICIO ESCRITORIO 1200px---------- */

@@ -1,0 +1,120 @@
+
+/* ----------------section contacto PANTALLA 350PX -------------- */
+/* ------------------consultas-------------- */
+.portada__principal-contenedor {
+    background-color: rgba(173, 188, 188, 0.295);
+}
+.texto__contacto {
+    padding: 0% 1em 1em 1em ;
+}
+.titulo__contacto {
+    background-image: url(/imagenes/html_contactos/img_portada_pricipal/nuevo\ portada.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5em;
+    padding: 1em;
+}
+/* --------------------texto consulta------------------- */
+.consultas {
+    color: red;
+}
+.contenido__consultas {
+    font-size: 0.9em;
+}
+.spam__consultas {
+    font-size: 0.9em;
+}
+/* ------------------fin consultas-------------- */
+
+/* -------------------------mapas------------------- */
+.container__mapa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* -------------------------fin mapas------------------- */
+/* ---------------horarios de atencion------------- */
+.horarios__atencion {
+    font-size: 0.9em;
+    padding: 1em;
+}
+.titulo__mapas {
+    padding: 1em;
+}
+.contenedor_mapa {
+    border: 2px solid rgb(110, 105, 105);
+    margin: 1em;
+}
+/* ---------------fin horarios de atencion------------- */
+
+/* ----------------FIN section contacto PANTALLA 350PX -------------- */
+/* ---------------------------------------------------------------------------------- */
+/* ---------------- section contacto PANTALLA 600PX -------------- */
+@media (min-width: 600px) {
+    .titulo__contacto {
+        height: 280px;
+        align-items: center;
+    }
+    .container__mapa {
+        padding-top: 0.5em;
+    }
+    .titulo__mapas {
+        padding: 1em;
+    }
+}
+/* ----------------fin section contacto PANTALLA 600PX -------------- */
+
+/* ---------------- section contacto PANTALLA 1200PX -------------- */
+
+@media (min-width: 1200px) {
+    .titulo__contacto {
+        font-size: 4rem;
+    }
+    .titulo__mapas {
+        padding: 0% 0% 0% 1em;
+    }
+.sub-titulo__consultas{
+    color: red;
+}
+.texto-video{
+    width: 14em;
+    height: 12em;
+}
+.contenedor__video-consultas{
+    width: 40%;
+}
+    .container__mapa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em;
+        gap: 2em;
+    }
+    .datos_contacto-mapa {
+        width: 16em;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: rgba(43, 153, 183, 0.18);
+    }
+    .contenedor_mapa {
+        width: 16em;
+        height: 15em;
+    }
+    .horario__feriados {
+        margin: 0%;
+        padding: 0%;
+    }
+    .horarios__atencion {
+        margin: 0%;
+    }
+}
+/* ----------------fin section contacto PANTALLA 1200PX -------------- */
