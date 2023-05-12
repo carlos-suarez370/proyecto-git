@@ -1,5 +1,6 @@
 /* ----------------PANTALLA MOVIL 350px---------- */
 /* <!-- --------------tarjeta de  wsp------- --> */
+@media (min-width: 400px){
 .contenedor__wsp{
     display: flex;
     justify-content: end;
@@ -49,7 +50,7 @@ color: white;
     width: 100%;
     height: 100%;
     padding: 1rem;
-}
+}}
 /* -------------fin tarjetas__ img- productos---------- */
 /* ----------------fin PANTALLA MOVIL 350px---------- */
 

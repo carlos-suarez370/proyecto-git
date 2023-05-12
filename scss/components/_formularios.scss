@@ -2,19 +2,20 @@
 
 // section contacto 350px
 /* ------------formulario consultas------------- */
-.formulario_consultas {
+@media (min-width: 400px){
+    .formulario_consultas {
     margin-top: 1em;
-}
+}}
 /* ------------fin  formulario consultas------------- */
 // fin section contacto 350px
 
 /* ---------------- section contacto PANTALLA 600PX -------------- */
 @media (min-width: 600px) {
     .formulario_consultas {
-        margin-block-end: 3em;
+       
         display: flex;
         flex-direction: column;
-        height: 8em;
+        height: auto;
     }
 }
 /* ----------------fin section contacto PANTALLA 600PX -------------- */

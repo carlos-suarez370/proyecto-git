@@ -2,7 +2,7 @@
 /* ----------------------section nosotros pantalla 350px----------- */
 /* --------------img y titulo----------- */
 
-
+@media (min-width: 400px) {
 .container__nosotros {
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@
 .nuestra-empresa {
     background-color: rgba(245, 245, 220, 0.582);
     padding: 1em;
+}
 }
 /* --------------------fin nuestra empresa------------------ */
 /* ----------------------fin section nosotros pantalla 350px----------- */

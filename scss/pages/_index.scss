@@ -2,6 +2,7 @@
 /* ----------------PANTALLA MOVIL 350px---------- */
 
 /* -----------------CATEGORIAS DE PRODUCTOS---------- */
+@media (min-width: 400px){
 .galeria_productos {
     background-color: rgba(241, 242, 242, 0.984);
     display: flex;
@@ -32,7 +33,7 @@
   
   .capa2 p{
     color: white;
-  }
+  }}
 /* -----------------fin CATEGORIAS DE PRODUCTOS---------- */
 /* ---------------fin dispocitivo movil 350px----------- */
 

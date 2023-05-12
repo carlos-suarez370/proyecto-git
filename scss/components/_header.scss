@@ -1,6 +1,7 @@
 /* ----------------PANTALLA MOVIL 350px---------- */
 
 /* ---------barra desplegable----------- */
+@media (min-width: 400px){
 .navbar>.container-fluid {
     background-color: rgb(59, 58, 57);
     color: white;
@@ -40,7 +41,7 @@
     color: white;
 /* --------- FIN  LOGO DE LA EMPRES__Y BUSCADOR------------- */
 /* ----------------fin PANTALLA  MOVIL 350px---------- */
-}
+}}
 
 /* ----------------PANTALLA  600px---------- */
 @media (min-width: 600px) {
